@@ -4,20 +4,22 @@ title: Down to Earth
 permalink: /earth
 ---
 
-{% for post in site.categories.earth %}
+{% for page in paginator.posts %}
+    {% if page.categories == "['earth']"}
     <div class="posts-container">
         <h1>
-        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.github.url }}{{ page.url }}">{{ page.title }}</a>
         </h1>
-        {% if post.image %}
-            <div class="thumbnail-container">
-                <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
-            </div>
+        {% if page.image %}
+        <div class="thumbnail-container">
+            <a href="{{ site.github.url }}{{ page.url }}"><img src="{{ site.github.url }}/assets/img/{{ page.image }}"></a>
+        </div>
         {% endif %}
-        <p>
-            {% include post-date.html %}, {{ post.place }}
-        </p>
     </div>
+    <p>
+        {% include post-date.html %}, {{ page.place }}
+    </p>
     <br>
     <hr>
+    {% endif %}
 {% endfor %}

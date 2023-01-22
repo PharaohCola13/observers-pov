@@ -4,14 +4,14 @@ title: Above the Clouds
 permalink: /sky
 ---
 
-{% for post in site.categories.sky %}
+{% for page in site.categories.sky %}
     <div class="posts-container">
         <h1>
-        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.github.url }}{{ page.url }}">{{ page.title }}</a>
         </h1>
-        {% if post.image %}
+        {% if page.image %}
         <div class="thumbnail-container">
-            <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+            <a href="{{ site.github.url }}{{ page.url }}"><img src="{{ site.github.url }}/assets/img/{{ page.image }}"></a>
         </div>
         {% endif %}
     </div>
