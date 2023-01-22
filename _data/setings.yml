@@ -1,0 +1,5 @@
+menu:
+- {name: 'Down to Earth',   url: 'EARTH.html'}
+- {name: 'Above the Clouds', url: 'SKY.html'}
+- {name: 'The Radiant Sun', url: 'SUN.html'}
+- {name: 'Space', url: 'SPACE.html'}
