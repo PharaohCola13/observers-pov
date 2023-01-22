@@ -4,7 +4,7 @@ title: Down to Earth
 permalink: /earth
 ---
 
-{% for page in paginator.posts %}
+{% for page in site.categories.sun %}
     <div class="posts-container">
         <h1>
         <a href="{{ site.github.url }}{{ page.url }}">{{ page.title }}</a>
@@ -16,7 +16,7 @@ permalink: /earth
         {% endif %}
     </div>
     <p>
-        {% include post-date.html %} | {{ page.place }} | {{ page.categories }}
+        {% include post-date.html %} | {{ page.place }}
     </p>
     <br>
     <hr>
