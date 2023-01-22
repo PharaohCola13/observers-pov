@@ -5,7 +5,7 @@ permalink: /earth
 ---
 
 {% for post in paginator.posts %}
-    {% if post.category == "earth" %}
+    {% if post.categories == "earth" %}
   <div class="posts-container">
     <h1>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
