@@ -19,3 +19,8 @@ paginate: 3
 
 # Build settings
 permalink:           /:title
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title: "An Observer's Point of View"
+description: 'A collection of pictures taken by me.'
+author: 'Spencer Riley'
