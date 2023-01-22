@@ -23,13 +23,14 @@
       </header>
 
       <div id="banner">
-        <!-- <div class="menu">
-          <nav class="menu-content"> -->
+        <span id="logo"></span>
+        <div class="downloads">
+          <ul>
             {% for item in site.data.settings.menu %}
-        <span><a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a></span>
+              <li><a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a></li>
             {% endfor %}
-          <!-- </nav>
-        </div> -->        
+          </ul>
+        </div>
       </div><!-- end banner -->
 
     <div class="wrapper">
