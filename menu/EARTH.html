@@ -10,10 +10,13 @@ permalink: /earth
         <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
         </h1>
         {% if post.image %}
-        <div class="thumbnail-container">
-            <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
-        </div>
+            <div class="thumbnail-container">
+                <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+            </div>
         {% endif %}
+        <p>
+            {{ post.date }}
+        </p>
     </div>
     <br>
     <hr>
