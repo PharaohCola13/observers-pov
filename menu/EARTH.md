@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Down to Earth
-permalink: /EARTH
+permalink: /earth
 ---

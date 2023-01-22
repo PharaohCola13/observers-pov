@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Space
-permalink: /SPACE
+permalink: /space
 ---
