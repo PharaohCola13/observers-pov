@@ -1,5 +1,9 @@
 menu:
-  - {name: 'Down to Earth',   url: 'earth.html'}
-  - {name: 'Above the Clouds', url: 'sky.html'}
-  - {name: 'The Radiant Sun', url: 'sun.html'}
-  - {name: 'Space', url: 'space.html'}
+  - name: 'Down to Earth'  
+    url: 'earth.html'
+  - name: 'Above the Clouds'
+    url: 'sky.html'
+  - name: 'The Radiant Sun'
+    url: 'sun.html'
+  - name: 'Space'
+    url: 'space.html'
