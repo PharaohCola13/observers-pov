@@ -15,7 +15,7 @@ permalink: /earth
             </div>
         {% endif %}
         <p>
-            {{ post.date }}
+            {% include post-date.html %}, {{ post.place }}
         </p>
     </div>
     <br>
